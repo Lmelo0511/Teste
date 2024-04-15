@@ -18,9 +18,9 @@
         </header>  
 
         <div class="board" data-board>
-            <div class="cell" data-cell><button class="botao" onclick="movendoBotoes()" button-cell>1</button></div>
-            <div class="cell" data-cell><button class="botao" onclick="movendoBotoes()" button-cell>2</button></div>
+            <div class="cell" data-cell><button class="botao" onclick="movendoBotoes()" data-button-cell>1</button></div>
             <div class="cell" data-cell></div>
+            <div class="cell" data-cell><button class="botao" onclick="movendoBotoes()" data-button-cell>3</button></div>
             <div class="cell" data-cell></div>
             <div class="cell" data-cell></div>
             <div class="cell" data-cell></div>
@@ -31,8 +31,8 @@
 
         <div class="winning-massage" data-winning-massage>
             <p class="winning-massage-text" data-winning-massage-text>Você conseguiu</p>
-            <button class="winning-massage-button" data-restart-button>Reiniciar!</button>
         </div>
-        <script src="./projeto.js"></script>
+        <button class="winning-massage-button" id="button" onclick="embaralhandoBotoes()" data-restart-button>Reiniciar!</button>
+        <script src="./teste.js"></script>
     </body>
 </html>
